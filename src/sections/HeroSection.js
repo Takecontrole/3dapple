@@ -103,8 +103,8 @@ const HeroSection = () => {
       </VideoContainer>
       <Title>iPhone 14 Pro Max</Title>
       <TextContainer>
-        <span>So.Cold.</span>
-        <span>So.Bold.</span>
+        <span>Рельеф.</span>
+        <span>Мощь.</span>
       </TextContainer>
     </Section>
   );

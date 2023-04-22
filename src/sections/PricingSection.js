@@ -169,32 +169,32 @@ const PricingSection = () => {
             <Color
               color="#9BB5CE"
               onClick={() =>
-                updateColor("#9BB5CE", "Sierra Blue", "155, 181, 206")
+                updateColor("#9BB5CE", "Голубой", "155, 181, 206")
               }
             />
             <Color
               color="#F9E5C9"
-              onClick={() => updateColor("#F9E5C9", "Gold", "249, 229, 201")}
+              onClick={() => updateColor("#F9E5C9", "Золотистый", "249, 229, 201")}
             />
             <Color
               color="#505F4E"
               onClick={() =>
-                updateColor("#505F4E", "Alpine Green", "80, 95, 78")
+                updateColor("#505F4E", "Зелёный", "80, 95, 78")
               }
             />
             <Color
               color="#574f6f"
               onClick={() =>
-                updateColor("#574f6f", "Deep Purple", "87, 79, 111")
+                updateColor("#574f6f", "Тёмно фиолетовый", "87, 79, 111")
               }
             />
             <Color
               color="#A50011"
-              onClick={() => updateColor("#A50011", "Red", "165, 0, 17")}
+              onClick={() => updateColor("#A50011", "Красный", "165, 0, 17")}
             />
             <Color
               color="#215E7C"
-              onClick={() => updateColor("#215E7C", "Blue", "33, 94, 124")}
+              onClick={() => updateColor("#215E7C", "Синий", "33, 94, 124")}
             />
           </Colors>
         </Phone>
@@ -202,10 +202,10 @@ const PricingSection = () => {
         <Details>
           <SubTitle>iPhone</SubTitle>
           <Title>14 Pro Max</Title>
-          <SubTitle>From $1099*</SubTitle>
+          <SubTitle>от 100000*</SubTitle>
           <ButtonContainer>
-            <Btn>Buy</Btn>
-            <BtnLink href="#">Learn More &#x2192;</BtnLink>
+            <Btn>Купить</Btn>
+            <BtnLink href="#">Узнать больше &#x2192;</BtnLink>
           </ButtonContainer>
         </Details>
       </Section>

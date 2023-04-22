@@ -156,26 +156,20 @@ const DisplaySection = () => {
   return (
     <Section>
       <MainTitle>
-        Immersive <br /> Display
+        Иммерсивный <br /> Дисплей
       </MainTitle>
       <TextBlockRight>
-        <Title>Super Ratine XDR Display</Title>
-        <Text>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Necessitatibus dignissimos ipsam.
-        </Text>
+        <Title>Супер сетчатый HDR-дисплей.</Title>
+       
       </TextBlockRight>
       <TextBlockLeft ref={container}>
-        <Title>Big is better</Title>
-        <Text>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Necessitatibus dignissimos ipsam.
-        </Text>
+        <Title>Больше. Лучше.</Title>
+
       </TextBlockLeft>
 
       <TextContainer>
-        <MovingText ref={textOne}>Tougher then ever!</MovingText>
-        <MovingText ref={textTwo}>Every touch matters.</MovingText>
+        <MovingText ref={textOne}>Каждое касание</MovingText>
+        <MovingText ref={textTwo}>имеет значение.</MovingText>
       </TextContainer>
     </Section>
   );

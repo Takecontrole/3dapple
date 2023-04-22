@@ -117,39 +117,39 @@ const ColorSection = () => {
       })
       .to(Elem, {
         onStart: updateColor,
-        onStartParams: ["#9BB5CE", "Sierra Blue", "155, 181, 206"],
+        onStartParams: ["#9BB5CE", "Голубой", "155, 181, 206"],
         onReverseComplete: updateColor,
-        onReverseCompleteParams: ["#9BB5CE", "Sierra Blue", "155, 181, 206"],
+        onReverseCompleteParams: ["#9BB5CE", "Голубой", "155, 181, 206"],
       })
       .to(Elem, {
         onStart: updateColor,
-        onStartParams: ["#F9E5C9", "Gold", "249, 229, 201"],
+        onStartParams: ["#F9E5C9", "Золотистый", "249, 229, 201"],
         onReverseComplete: updateColor,
-        onReverseCompleteParams: ["#F9E5C9", "Gold", "249, 229, 201"],
+        onReverseCompleteParams: ["#F9E5C9", "Золотистый", "249, 229, 201"],
       })
       .to(Elem, {
         onStart: updateColor,
-        onStartParams: ["#505F4E", "Alpine Green", "80, 95, 78"],
+        onStartParams: ["#505F4E", "Зелёный", "80, 95, 78"],
         onReverseComplete: updateColor,
-        onReverseCompleteParams: ["#505F4E", "Alpine Green", "80, 95, 78"],
+        onReverseCompleteParams: ["#505F4E", "Зелёный", "80, 95, 78"],
       })
       .to(Elem, {
         onStart: updateColor,
-        onStartParams: ["#574f6f", "Deep Purple", "87, 79, 111"],
+        onStartParams: ["#574f6f", "Тёмно фиолетовый", "87, 79, 111"],
         onReverseComplete: updateColor,
-        onReverseCompleteParams: ["#574f6f", "Deep Purple", "87, 79, 111"],
+        onReverseCompleteParams: ["#574f6f", "Тёмно фиолетовый", "87, 79, 111"],
       })
       .to(Elem, {
         onStart: updateColor,
-        onStartParams: ["#A50011", "Red", "165, 0, 17"],
+        onStartParams: ["#A50011", "Красный", "165, 0, 17"],
         onReverseComplete: updateColor,
-        onReverseCompleteParams: ["#A50011", "Red", "165, 0, 17"],
+        onReverseCompleteParams: ["#A50011", "Красный", "165, 0, 17"],
       })
       .to(Elem, {
         onStart: updateColor,
-        onStartParams: ["#215E7C", "Blue", "33, 94, 124"],
+        onStartParams: ["#215E7C", "Синий", "33, 94, 124"],
         onReverseComplete: updateColor,
-        onReverseCompleteParams: ["#215E7C", "Blue", "33, 94, 124"],
+        onReverseCompleteParams: ["#215E7C", "Синий", "33, 94, 124"],
       });
 
     return () => {

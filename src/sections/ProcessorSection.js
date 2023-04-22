@@ -116,21 +116,14 @@ const Text = styled.div`
 const ProcessorSection = () => {
   return (
     <Section>
-      <Title>Fastest Processor</Title>
+      <Title>Быстрейший процессор</Title>
       <Processor>
-        <img src={a15} alt="A15 processor" />
+        <img src={a15} alt="A16 processor" />
       </Processor>
       <Text>
+
         <span>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Reprehenderit numquam quae nisi, dolore cum voluptatem cumque quo sit,
-          consequuntur necessitatibus iste fuga assumenda deserunt aut omnis,
-          quaerat aliquid optio veniam.
-        </span>
-        <span>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Reprehenderit numquam quae nisi, dolore cum voluptatem cumque quo sit,
-          consequuntur necessitatibus iste fuga assumenda deserunt aut.
+          Процессор А16. Почувствуй быстроту ультрасовременных технологий!
         </span>
       </Text>
     </Section>
