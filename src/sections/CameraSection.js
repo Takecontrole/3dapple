@@ -158,7 +158,6 @@ const CameraSection = () => {
       <TitleContainer ref={titleRef}>
         <Title>Плавно.</Title>
         <Title>Стабильно.</Title>
-        <Title>В движении.</Title>
       </TitleContainer>
     </Section>
   );
